@@ -1,0 +1,10 @@
+^E:\AASTAT\8000 PROJECT\ACODE\CPLUS\BUILD\CMAKEFILES\D49B7CB888E557BC5275C2D706617EA7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/AAStat/8000 Project/Acode/cplus" "-BE:/AAStat/8000 Project/Acode/cplus/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/AAStat/8000 Project/Acode/cplus/build/INT8QuantizationEngine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
