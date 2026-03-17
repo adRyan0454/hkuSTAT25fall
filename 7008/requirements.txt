@@ -1,0 +1,23 @@
+# FastAPI Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+pymysql==1.1.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Security & Encryption
+cryptography==41.0.7
+bcrypt==4.1.1
+
+# HTTP Client (for testing)
+requests==2.31.0
+
+# Data Processing
+pandas==2.1.4
+openpyxl==3.1.2  # For .xlsx files
+xlrd==2.0.1      # For .xls files
